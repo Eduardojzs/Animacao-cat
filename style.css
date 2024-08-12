@@ -1,0 +1,36 @@
+
+@keyframes andar{
+    0%{
+        background-position: 0 0 ;
+    }
+
+    100%{
+        background-position: 0 -2377px;
+    }
+}
+
+
+
+
+.cat{
+    width: 400px;
+    height: 200px;
+    background-color: #ccc;
+    outline: 2px solid red;
+    background-image: url(walking_sprite.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    animation: andar 1s steps(12) infinite;
+    margin-bottom: 30px;
+}
+
+
+.cat2{
+    width: 800px;
+    height: 200px;
+    background-color: #ccc;
+    outline: 2px solid red;
+    background-image: url(walking_sprite.png);
+    background-position:center;
+    animation: andar 1s steps(12) infinite;
+}
