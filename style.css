@@ -25,12 +25,3 @@
 }
 
 
-.cat2{
-    width: 800px;
-    height: 200px;
-    background-color: #ccc;
-    outline: 2px solid red;
-    background-image: url(walking_sprite.png);
-    background-position:center;
-    animation: andar 1s steps(12) infinite;
-}
